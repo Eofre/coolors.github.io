@@ -17,3 +17,27 @@ body {
   justify-content: space-around;
   align-items: center;
 }
+
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 8px;
+  font-size: 1.5em;
+  outline: none;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.166);
+}
+
+h2 {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 8px;
+}
+
+h2:hover {
+  background-color: rgba(0, 0, 0, 0.166);
+}
